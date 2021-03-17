@@ -19,15 +19,8 @@ jobs:
 
           user: voldien
           template: classic
-          base: activity, community, repositories, metadata
-          config_animated: yes
+          base: header, activity, community, repositories, metadata
           config_timezone: Europe/Stockholm
-          plugin_followup: yes
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          plugin_languages: yes
-          plugin_languages_colors: github
-          plugin_stargazers: yes
           # myanimelist
           #plugin_myanimelist: yes
           #plugin_myanimelist_medias: anime, manga             # Display both animes and mangas
