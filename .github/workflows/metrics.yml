@@ -21,6 +21,12 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Stockholm
+          
+          # ... other options
+          plugin_languages: yes
+          plugin_languages_colors: "0:orange, javascript:#ff0000, ..." # Make most used languages orange and JavaScript red
+          plugin_languages_details: bytes-size, percentage             # Additionally display total bytes size and percentage
+          plugin_languages_threshold: 2%                               # Hides all languages less than 2%
           # myanimelist
           #plugin_myanimelist: yes
           #plugin_myanimelist_medias: anime, manga             # Display both animes and mangas
